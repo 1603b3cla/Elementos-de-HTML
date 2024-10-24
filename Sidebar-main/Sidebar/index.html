@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Sidebar/style.css">
+</head>
+<body>
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+
+    <div class="barra-lateral">
+        <div>
+            <div class="nombre-pagina">
+                <ion-icon name="logo-html5"></ion-icon>
+                <span>Elementos de HTML</span>
+            </div>
+            
+        </div>
+
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a id="Texto" href="#">
+                        <ion-icon name="document-text"></ion-icon>
+                        <span>Texto</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="Vinculos" href="#seccion-vinculos">
+                        <ion-icon name="link"></ion-icon>
+                        <span>Vinculos</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a id="List" href="#seccion-listas">
+                        <ion-icon name="list"></ion-icon>
+                        <span>Listas</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="Table" href="#seccion-tablas">
+                        <ion-icon name="grid"></ion-icon>
+                        <span>Tablas</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="Objetos" href="#seccion-objetos">
+                        <ion-icon name="globe"></ion-icon>
+                        <span>Objetos</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="imagenes" href="#seccion-img">
+                        <ion-icon name="images"></ion-icon>
+                        <span>Imágenes</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="formularios" href="#seccion-formularios">
+                        <ion-icon name="apps"></ion-icon>
+                        <span>Formularios</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div>
+            <div class="linea"></div>
+
+            <div class="modo-oscuro">
+                <div class="info">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <span>Modo Oscuro</span>
+                </div>
+                <div class="switch">
+                    <div class="base">
+                        <div class="circulo">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="usuario">
+                <img src="./itvo.ico" alt="">
+                <div class="info-usuario">
+                    <div class="nombre-email">
+                        <span class="nombre">Edgar David Calvo García</span>
+                        <span class="email">lc19920148@voaxaca.tecnm.mx</span>
+                    </div>
+                    <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+   <!-- Remueve el id duplicado -->
+<main>
+    <nav>
+        <h1>ELEMENTO TEXTO HTML</h1> <!-- Se elimina el id para evitar duplicación -->
+        <p style="font-size: 15px;">PROGRAMACION II</p>
+    </nav>
+
+    <!-- Contenido principal -->
+    <p><strong>&lt;html&gt;</strong> Este es el elemento raíz de un documento HTML. <strong>&lt;/html&gt;</strong></p>
+    <img src="../Imagenes/html.png" alt="html" width="500" height="300">
+    <p><strong>&lt;head&gt;</strong> Contiene metadatos sobre el documento, como el título y enlaces a estilos.<strong>&lt;/head&gt;</strong></p>
+    <img src="../Imagenes/head.png" alt="head" width="500" height="150">
+    <p><strong>&lt;title&gt;</strong> Especifica el título de la página que aparece en la pestaña del navegador.<strong>&lt;/title&gt;</strong></p>
+    <img src="../Imagenes/title.png" alt="title" width="500" height="150">
+    <p><strong>&lt;body&gt;</strong> Contiene el contenido visible de la página web.<strong>&lt;/body&gt;</strong></p>
+    <img src="../Imagenes/body.png" alt="body" width="500" height="200">
+    <p><strong>&lt;h1&gt; a &lt;h6&gt;</strong> Encabezados que van de mayor a menor importancia.<strong>&lt;/h1&gt; a &lt;/h6&gt;</strong> </p>
+    <img src="../Imagenes/h1.png" alt="h" width="500" height="250">
+    <p><strong>&lt;p&gt;</strong> Define un párrafo de texto.<strong>&lt;/p&gt;</strong></p>
+    <img src="../Imagenes/parrafo.png" alt="parrafo" width="500" height="150">
+    <p><strong>&lt;ul&gt; y &lt;li&gt;</strong> Crea una lista desordenada.<strong>&lt;/ul&gt; y &lt;/li&gt;</strong></p>
+    <img src="../Imagenes/lista.png" alt="lista" width="500" height="250">
+    <p><strong>&lt;div&gt;</strong> Agrupa elementos y se utiliza para aplicar estilos.<strong>&lt;/div&gt;</strong></p>
+    <img src="../Imagenes/div.png" alt="div" width="500" height="150">
+
+
+
+
+    <!-- Sección de vínculos con el id correcto -->
+    <div>
+        <nav id="seccion-vinculos">
+            <h1>VINCULOS HTML</h1>
+        </nav>  
+            <h2>Sección de Vínculos</h2>
+            <p style="text-align: justify;">En HTML, los vínculos (o enlaces) se crean con la etiqueta &lt;a&gt;, que significa "anchor" (ancla). La etiqueta &lt;a&gt; se utiliza para enlazar a otras páginas web, secciones dentro de la misma página, archivos, direcciones de correo electrónico, o incluso ejecutar funciones de JavaScript. A continuación, algunos ejemplos de cómo se pueden usar los vínculos en HTML</p>
+                
+                <h3><p><strong>&lt;a&gt;</strong>Abrir el enlace en una nueva pestaña<strong>&lt;/a&gt;</strong></p></h3>
+                <p>En este caso, el atributo href especifica la URL del sitio web al que llevará el enlace.</p>
+                <img src="../Imagenes/a.png" alt="a" width="900" height="100">
+                <p><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeHJRQTC9RumjNYF76DFcT5Hw2862THnQYQ&s" target="_blank">Visitar Ejemplo en una nueva pestaña</a></p>
+                
+                <h3><p><strong>&lt;a&gt;</strong>Enlace a un archivo local<strong>&lt;/a&gt;</strong></p></h3> 
+                <p>Esto enlaza a un archivo PDF llamado <a href="">documento.pdf</a> que está en la misma ubicación que el archivo HTML.</p>
+                <img src="../Imagenes/apdf.png" alt="apdf" width="600" height="100">
+                <p><a href="../Sidebar/DocumentoPdf.pdf">Descargar Documento</a></p>
+
+                <h3><p><strong>&lt;a&gt;</strong>Enlace a una sección dentro de la misma página<strong>&lt;/a&gt;</strong></p></h3> 
+                <p>Primero, crea un elemento con un id para definir la sección de destino </p>
+                <img src="../Imagenes/id.png" alt="id" width="600" height="250">
+                <p>Luego, crea el enlace para desplazarse a esa sección: </p>
+                <img src="../Imagenes/aa.png" alt="aa" width="600" height="150">
+                <p><a href="../Sidebar/DocumentoPdf.pdf">Descargar Documento</a></p>
+
+                <h3><p><strong>&lt;a&gt;</strong>Abrir el enlace en una nueva pestaña<strong>&lt;/a&gt;</strong></p></h3>
+                <img src="../Imagenes/anew.png" alt="aa.png" width="600" height="100">
+                <p>El atributo target="_blank" hace que el enlace se abra en una nueva pestaña o ventana del navegador.</p>
+                <p><a href="https://activetheory.net/" target="_blank">Visitar Ejemplo en una nueva pestaña</a></p>
+
+                <h3><p><strong>&lt;a&gt;Enlace con un botón estilizado&lt;/a&gt;</strong></p></h3>
+                <img src="../Imagenes/bot.png" alt="aa.png" width="900" height="70">
+                <p>En este caso, se utilizan estilos en línea para darle apariencia de botón al enlace.</p>
+                <a href="https://www.ejemplo.com" style="padding: 10px 20px; background-color: rgb(64, 64, 64); color: rgb(255, 255, 255); text-decoration: none; border-radius: 5px;">Visitar Ejemplo</a>
+    </div>
+
+        <div>
+            <nav id="seccion-listas">
+                <h1>LISTAS HTML</h1>
+            </nav>
+                <p>Las listas en HTML nos permite crear conjuntos de elementos en forma de lista dentro de una página, todos los cuales irán precedidos, generalmente, por un guión o número.
+
+                    Los tipos de listas en HTML son los siguientes:
+                    
+                    <ul style="font-size: 20px; text-align: left; margin-left: 100px;">
+                        <li>Elemento 1</li>
+                        <li>Elemento 2</li>
+                        <li>Elemento 3</li>
+                    </ul>
+                </p>
+
+                <h3><p><strong>&lt;ol&gt;Listas Ordenadas&lt;/ol&gt;</strong></p></h3>
+                <p style="text-align: justify;">Las listas ordenadas en HTML son aquellas que nos muestran los elementos de la lista en orden. Para representar el orden tendremos los elementos numerados. Es decir, cada uno de los elementos irá precedido de un número o letra que establezca su orden.</p>
+                <p>Las listas ordenadas en HTML se representan mediante el elemento OL.</p>
+                <img src="../Imagenes/ol.png" alt="ol.png" width="300" height="150">
+                <p>Cada uno de los elementos de la lista ordenada se representará mediante el <a href="http://www.w3api.com/wiki/HTML:OL">elemento LI.</a></p>
+                <img src="../Imagenes/olli.png" alt="olli.png" width="400" height="240">
+                <p>Un ejemplo de lista ordenada sería el siguiente:<p></p>
+                <img src="../Imagenes/li.png" alt="li.png" width="400" height="240">
+                <p>
+                    Que produciría el siguiente efecto:
+                    <ol style="font-size: 20px; text-align: left; margin-left: 100px;">
+                    <li>Julio</li>
+                    <li>Carmen</li>
+                    <li>Ignacio</li>
+                    <li>Elena</li>
+                  </ol>
+                </p>
+
+                <h3><p><strong>&lt;ol&gt;Número de inicio de la lista: start&lt;/ol&gt;</strong></p></h3>
+                <p style="text-align: justify;">El atributo start nos permite indicar el número por el cual queremos que empiece la lista, ya que por defecto las listas ordenadas en <a href="https://www.manualweb.net/tutorial-html/">HTML</a> empiezan por el número 1.</p>
+                <img src="../Imagenes/liststa.png" alt="liststa.png" width="400" height="150">
+                <p>De esta forma, si queremos que la lista empiece por el número 5, escribiremos el siguiente código:</p>
+                <img src="../Imagenes/liststas.png" alt="liststas.png" width="400" height="300">
+                <p>Que produciría el siguiente efecto:</p>
+                <p><ol start="5" style="font-size: 20px; text-align: left; margin-left: 100px;">
+                    <li>Julio</li>
+                    <li>Carmen</li>
+                    <li>Ignacio</li>
+                    <li>Elena</li>
+                  </ol>
+                </p>
+
+                <h3><p><strong>&lt;ol&gt;Tipo de lista ordenada: type&lt;/ol&gt;</strong></p></h3>
+                <p>De igual manera podemos indicar el tipo de lista ordenada en HTML que queremos representar.
+
+                    Entre los tipos de listas que podemos representar tenemos:
+                </p>
+                <ul style="font-size: 20px; text-align: left; margin-left: 100px;">
+                    <li>1 - Listas decimales</li>
+                    <li>a - Listas alfabéticas en minúsculas</li>
+                    <li>A - Listas alfabéticas en mayúsculas</li>
+                    <li>i - Listas de números romanos en minúsculas</li>
+                    <li>I - Listas de números romanos en mayúsculas</li>
+                </ul>
+                </p>
+                <p>Los valores indicados al principio son los que le podemos asignar al atributo type de la lista ordenada en HTML.</p>
+                <img src="../Imagenes/oltipo.png" alt="oltipo" width="400" height="150">
+                <p>Si queremos que nuestra lista aparezca ordenada mediante letras en mayúsculas escribimos lo siguiente:</p>
+                <img src="../Imagenes/oltype.png" alt="oltype" width="400" height="270">
+                <p>En este caso la lista se representará de la siguiente forma:</p>
+                <p> 
+                    <ol style="font-size: 20px; text-align: left; margin-left: 100px;" type="A">
+                        <li>Julio</li>
+                        <li>Carmen</li>
+                        <li>Ignacio</li>
+                        <li>Elena</li>
+                      </ol>           
+                </p>
+
+
+                <h3><p><strong>&lt;dl&gt;Listas de Definiciones&lt;/dl&gt;</strong></p></h3>
+                <p style="text-align: justify;">Las listas de definiciones en <a href="https://www.manualweb.net/tutorial-html/">HTML</a> nos sirven para montar listas en las que tenemos la estructura valor y definición. Suelen ser listas para definir términos, como si fuese un diccionario, si bien pueden ser cualquier par valor-definición.
+
+                    Las listas de definiciones en <a href="https://www.manualweb.net/tutorial-html/">HTML</a> se construyen mediante el <a href="http://www.w3api.com/wiki/HTML:DL">elemento dl</a>.</p>
+                <img src="../Imagenes/dl.png" alt="dl" width="300" height="150">
+                <p style="text-align: justify;">En este caso, dentro de las listas de definiciones en HTML tenemos dos elementos anidados: el que representa al valor dt y el que representa a la definición dd. De esta forma la estructura de las listas en HTML de definiciones es la siguiente:</p>
+                <img src="../Imagenes/dldt.png" alt="dldt" width="600" height="450">
+                <p>Si queremos crear una lista en <a href="https://www.manualweb.net/tutorial-html/">HTML</a> con definiciones de palabras, podemos escribir lo siguiente:</p>
+                <img src="../Imagenes/dldtlist.png" alt="dldtlist" width="700" height="200">
+                <p>Lo cual nos acabará mostrando por pantalla lo siguiente:</p>
+                
+                    <dl style="font-size: 20px; text-align: left; margin-left: 100px;">
+                        <strong><dt>Pizpireta</dt></strong>
+                        <dd>Dicho de una mujer: Viva, pronta y aguda.</dd>
+                        <Strong><dt>Pulular</dt></Strong>
+                        <dd>Dicho de las personas, animales o cosas: Abundar y bullir en un lugar.</dd>
+                        <strong><dt>Concupiscencia</dt></strong>
+                        <dd>En la moral católica, deseo de bienes terrenos y, en especial, apetito desordenado de placeres deshonestos.</dd>
+                      </dl>
+               
+                
+              <h3><p><strong>&lt;ul&gt;Listas anidadas&lt;/li&gt;</strong></p></h3>
+              <p style="text-align: justify;">Cuando estemos manejando listas podemos anidar unas en otras independientemente del tipo de lista que estemos anidando.Para crear listas anidadas en <a href="https://www.manualweb.net/tutorial-html/">HTML</a> simplemente tenemos que hacer que el elemento de una de las listas sea a su vez una lista. Es decir, el esquema de listas sería parecido al siguiente:</p>
+              <img src="../Imagenes/anidadas.png" alt="anidadas" width="500" height="450">
+              <p style="text-align: justify;">En este caso hemos anidado una lista ordenada dentro del tercer elemento li de una lista desordenada. </p>
+              <p style="text-align: justify;">Hay que tener cuidado de poner el elemento li dentro de la lista anidada, ya que si no lo ponemos estaremos generando un código incorrecto.</p>
+              <p style="text-align: justify;">Las anidaciones de listas puede ser de cualquier tipo de lista y sin límite de anidación.</p>
+                <p style="text-align: justify;">Un ejemplo de listas anidadas sería una clasificación de animales como la siguiente:</p>
+                <img src="../Imagenes/anidadasulli.png" alt="anidadasulli" width="500" height="700">
+                <p>El efecto que obtendríamos sería el siguiente:</p>
+                <ul style="font-size: 20px; text-align: left; margin-left: 100px;">
+                    <li>Carnívoro
+                        <ul>
+                            <li>León</li>
+                            <li>Buitre</li>
+                            <li>Hiena</li>
+                        </ul>
+                    </li>
+                    <li>Herbívoro
+                        <ul>
+                            <li>Cabra</li>
+                            <li>Vaca</li>
+                        </ul>
+                    </li>
+                    <li>Omnívoro
+                        <ul>
+                            <li>Oso</li>
+                            <li>Urraca</li>
+                        </ul>
+                    </li>
+                  </ul>
+
+                <nav id="seccion-tablas">
+                    <h1>TABLAS HTML</h1>
+                </nav>
+                <p style="text-align: justify;">Las tablas están incluidas en HTML desde sus primeras versiones y son una forma fantástica de mostrar datos claramente. Además, si las construimos de forma semántica y correctamente, es muy sencillo darle estilos desde CSS y cambiar su diseño con unas cuantas propiedades CSS, puesto que mediante las etiquetas que la componen se puede hacer referencia a cada parte de la misma.</p>
+                <h3 style="text-align: justify;">La etiqueta <strong>&lt;table&gt; &lt;/table&gt;</strong></h3>
+                <table class="table table-dark table-hover">
+                    <tr>
+                        <th>Etiqueta</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Etiqueta contenedora que tendrá en su interior toda la tabla.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row. Etiqueta contenedora de cada fila de la tabla.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data. Cada una de las celdas de la tabla.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Table Header. Cada una de las celdas de cabecera de la tabla.</td>
+                    </tr>
+                  </table>
+
+                  <p style="text-align: justify;">Estas son las etiquetas básicas principales de una tabla. La etiqueta &lt;table&gt; sería el elemento que contendría todos los elementos de la tabla, mientras que &lt;th&gt; y &lt;td&gt; se utilizarían para cada uno de los campos de la tabla (celdas de cabecera y celda de datos respectivamente). Cada vez que se quisiera añadir una nueva fila, habría que incluirlo todo dentro de una etiqueta &lt;tr&gt;.
+                    </p>
+                    <p style="text-align: justify;">Estas cuatro etiquetas serían las etiquetas mínimas necesarias para crear una tabla. Un ejemplo muy sencillo de una tabla de 5x2 celdas, sería la siguiente:</p>
+        </div><img src="../Imagenes/tablee.png" alt="anidadas" width="700" height="450">
+
+        <div>
+
+            <h3 style="text-align: justify;">La etiqueta <strong>&lt;th&gt; &lt;/th&gt;</strong></h3>
+            <p style="text-align: justify;">
+                Hemos mencionado que la etiqueta &lt;th&gt;&lt;/th&gt; sirve para crear celdas que funcionan como cabeceras de la columna de la tabla. Por defecto, esta celda es una celda normal, algo más destacada visualmente sobre el resto, para que el usuario entienda la naturaleza de los datos que encontrará en esa columna.
+            </p>
+            <p style="text-align: justify;">Sin embargo, es posible añadirle ciertos atributos para modificar su comportamiento:</p>
+            
+            <h3 style="text-shadow: none;">Atributos de Cabeceras en Tablas</h3>
+
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>scope</td>
+                    <td>Indica a qué celdas se aplica la cabecera.</td>
+                </tr>
+                <tr>
+                    <td>abbr</td>
+                    <td>Abreviatura o información alternativa sobre la cabecera.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Los valores del atributo scope pueden ser los siguientes:</p>
+        <table style="text-align: justify;" class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>Valor</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>row</td>
+                    <td>La cabecera se aplica a alguna de las filas adyacentes.</td>
+                </tr>
+                <tr>
+                    <td>col</td>
+                    <td>La cabecera se aplica a alguna de las columnas adyacentes.</td>
+                </tr>
+                <tr>
+                    <td>rowgroup</td>
+                    <td>La cabecera se aplica a todas las celdas restantes de la fila.</td>
+                </tr>
+                <tr>
+                    <td>colgroup</td>
+                    <td>La cabecera se aplica a todas las celdas restantes de la columna.</td>
+                </tr>
+                <tr>
+                    <td>auto</td>
+                    <td>La cabecera se aplica a las celdas de forma automática.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        </div>
+
+   <div>
+
+    <nav id="seccion-objetos">
+        <h1>OBJETOS HTML</h1>
+    </nav>
+    <p style="text-align: justify;">Los objetos HTML son elementos que permiten insertar contenido multimedia, interactuar con diferentes tipos de datos y representar gráficos o formularios dentro de un documento HTML. Aquí tienes una descripción de algunos de los objetos HTML más comunes, junto con ejemplos de cómo se utilizan.
+
+    </p>
+    <h3 ><strong>&lt;img&gt; Imagen </strong></h3>
+    <p style="text-align: justify;">El elemento &lt;img&gt; se utiliza para mostrar imágenes en la página web. Tiene atributos comunes como</p>
+
+    <ul style="text-align: justify;">
+        <li>
+            <strong>src</strong>
+            Especifica la ruta de la imagen.
+        </li>
+        <li>
+            <strong>alt</strong>
+            Texto alternativo que se muestra si la imagen no se puede cargar. También mejora la accesibilidad.
+        </li>
+        <li>
+            <strong>width</strong> y <strong>height</strong>
+            Definen el tamaño de la imagen.
+        </li>
+    </ul>
+
+
+    <p>Codigo </p>
+    <img src="../Imagenes/imge.png" alt="imagen" width="800" height="100">
+    <p>Permite insertar imágenes en la página web.</p>
+    <img src="../Sidebar/itvo.ico" alt="Descripción de la imagen" width="200" height="200">
+
+    <h3> <strong>&lt;audio&gt;Audio</strong></h3>
+    <p style="text-align: justify;">El elemento &lt;audio&gt; se usa para reproducir archivos de audio.</p>
+    <ul style="text-align: justify;">
+        <li>
+            <strong>controls</strong>
+            Muestra controles para reproducir, pausar y ajustar el volumen.
+        </li>
+        <li>
+            <strong>autoplay</strong>
+            Hace que el audio se reproduzca automáticamente al cargar la página (no recomendado en todos los casos).
+        </li>
+        <li>
+            <strong>loop</strong>
+            Reproduce el audio en un bucle infinito.
+        </li>
+    </ul>
+    <p>Usado para reproducir audio en la página.</p>
+    <p>Ejemplo de Codigo</p>
+    <img src="../Imagenes/audio.png" alt="Descripción de la imagen" width="500" height="150">
+    <p> Ejemplo Funcionamiento</p>
+        
+    <p>
+
+        <audio controls>
+            <source src="../Imagenes/animals-buffalo-sound-232390.mp3" type="audio/mpeg">
+        </audio>
+
+    </p>
+
+    <h3> <strong>&lt;video&gt;Video&lt;/video&gt;</strong></h3>
+    <p style="text-align: justify;">Se utiliza para insertar videos en la página web.</p>
+
+    <ul style="text-align: justify;">
+        <li><strong>controls</strong>: Muestra los controles de reproducción.</li>
+        <li><strong>autoplay</strong>: Comienza a reproducir automáticamente el video.</li>
+        <li><strong>loop</strong>: Reproduce el video repetidamente.</li>
+        <li><strong>muted</strong>: Silencia el video.</li>
+    </ul>
+    
+    <P>Permite insertar videos.</P>
+    <img src="../Imagenes/video.png" alt="video" width="500" height="150">
+    <p>Ejemplo</p>
+    <video width="400" controls>
+        <source src="../Imagenes/Patricio En Caballito de Mar Bob Esponja Sueño de Patricio.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+
+    <h3><strong>&lt;iframe&gt;Inline Frame&lt;/iframe&gt;</strong></h3>
+    <p>El elemento &lt;iframe&gt; permite incrustar otra página web en el documento actual.</p>
+    <img src="../Imagenes/videoyou.png" alt="video" width="700" height="225">
+    <ul style="text-align: justify;"> 
+        <li><strong>src</strong>: URL de la página que se va a mostrar.</li>
+        <li><Strong>width</Strong> y <Strong>height</Strong>: Dimensiones del iframe.</li>
+        <li><strong>sandbox</strong>: Añade restricciones de seguridad al contenido.</li>
+    </ul>
+    <p>Ejemplo</p>
+    <iframe width="900" height="500" src="https://www.youtube.com/embed/OEBPFOaSvbM?list=RDOEBPFOaSvbM" title="Álvaro Díaz x Nathy Peluso - Xq Eres Así? [Official Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>
+  <h3><strong>&lt;canvas&gt;Lienzo&lt;/canvas&gt;</strong></h3>
+  <p style="text-align: justify;">Se usa para dibujar gráficos, gráficos animados, o incluso procesar fotos y videos mediante JavaScript.</p>
+    <ul style="text-align: justify;">
+        <li><strong>getContext('2d')</strong>: Método utilizado para obtener el contexto de dibujo bidimensional.</li>
+    </ul>
+    <p>Ejemplo Codigo</p>
+    <img src="../Imagenes/canva.png" alt="canva" width="700" height="300">
+    <p>Ejemplo visual</p>
+
+    <h3>Ejemplo de Canvas</h3>
+    <canvas id="miCanvas" width="600" height="400" style="border:1px solid #000;"></canvas>
+    <script>
+        var canvas = document.getElementById('miCanvas');
+        var ctx = canvas.getContext('2d');
+    
+        // Datos de las marcas y precios
+        var marcas = ["Dell", "HP", "Apple", "Acer", "Lenovo"];
+        var precios = [800, 750, 1200, 600, 700]; // Precios en dólares
+    
+        // Configuración de la gráfica
+        var anchoBarra = 50;
+        var espacioEntreBarras = 30;
+        var maxAltura = 300; // Altura máxima para la barra más alta
+        var maxPrecio = Math.max(...precios);
+    
+        // Dibujar las barras
+        for (var i = 0; i < marcas.length; i++) {
+            // Calcular la altura proporcional de cada barra
+            var alturaBarra = (precios[i] / maxPrecio) * maxAltura;
+            var x = i * (anchoBarra + espacioEntreBarras) + 50; // Posición en X
+            var y = canvas.height - alturaBarra - 50; // Posición en Y
+    
+            // Dibujar la barra
+            ctx.fillStyle = "#4CAF50"; // Color verde para las barras
+            ctx.fillRect(x, y, anchoBarra, alturaBarra);
+    
+            // Agregar el precio sobre la barra
+            ctx.fillStyle = "#000";
+            ctx.fillText("$" + precios[i], x + 10, y - 10);
+    
+            // Agregar la marca debajo de la barra
+            ctx.fillText(marcas[i], x + 10, canvas.height - 20);
+        }
+    
+        // Etiquetas de la gráfica
+        ctx.fillStyle = "#000";
+        ctx.font = "16px Arial";
+        ctx.fillText("Marcas de Computadoras y sus Precios en 2018", 100, 30);
+        ctx.fillText("Precios en USD", 10, 50);
+    </script>
+
+    <h3><strong>&lt; map &gt; y &lt;area &gt;</strong>Mapa de imagen</h3>
+    <p style="text-align: justify;">Se utilizan para crear áreas clicables en una imagen.</p>
+    <ul style="text-align: justify;">
+        <li><strong>&lt; map &gt;</strong>: Define un mapa de imagen.</li>
+        <li><strong>&lt; area &gt;</strong>: Define las áreas clicables dentro de la imagen.</li>
+    </ul>
+
+    
+
+   </div>
+    
+   <div>
+    <nav id="seccion-img">
+        <h1>IMAGENES HTML</h1>
+    </nav>  
+    <h3><strong>&lt;img&gt;</strong> Imagen</h3>
+    <p style="text-align: justify;">Un tipo de recurso muy frecuente en nuestras páginas son las imágenes. Las imágenes son importantísimas para conseguir que nuestra página se vea bien y sea agradable (si son imágenes de decoración) o ayude a mostrar y ejemplificar lo que escribimos en ella (si son imágenes de contenido).</p>
+    <p style="text-align: justify;">Antes de colocar una imagen en una página web debemos preguntarnos y tener claro cuál es el objetivo de dicha imagen en nuestro sitio web:</p>
+
+    <ul style="text-align: justify;">
+
+        <li>Imágenes mostradas como contenido de la web</li>
+        <li>Imágenes mostradas como decoración de la web</li>
+    </ul>
+
+    <p style="text-align: justify;">En el primer caso, si la imagen pertenece al contenido y tema tratado en esa página, sería conveniente incluirla mediante la etiqueta HTML &lt;img&gt;. Si por el contrario pertenece a la decoración de la página, sería más adecuado incluirla como un fondo mediante <a href="https://lenguajecss.com/css/imagenes-y-fondos/propiedad-background-image/">la propiedad CSS background-image.</a></p>
+
+    <h3>La etiqueta <strong>&lt;img&gt;</strong></h3>
+    <p style="text-align: justify;">Como hemos mencionado, para incluir imágenes en el contenido de una página utilizaremos la etiqueta &lt;img&gt;. Se trata de una etiqueta muy sencilla, que necesita al menos incluir obligatoriamente los atributos src y alt:</p>
+    <img src="../Imagenes/img1.png" alt="img1" width="800" height="150">
+    <p>Veamos que atributos pueden ser utilizados en esta etiqueta:</p>
+    <table style="text-align: justify;" class="table table-dark table-hover">
+        <tr>
+            <th>Atributo</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Indica el nombre o la URL de la imagen a mostrar. Atributo obligatorio.</td>
+        </tr>
+        <tr>
+            <td>alt</td>
+            <td>Establece un texto alternativo que describa la imagen a mostrar. Atributo obligatorio.</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Indica el ancho de la imagen en píxeles (sin la unidad). Se puede hacer desde CSS.</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Indica el alto de la imagen en píxeles (sin la unidad). Se puede hacer desde CSS.</td>
+        </tr>
+    </table>
+
+    <div>
+        <nav id="seccion-formularios">
+            <h1>FORMULARIOS HTML</h1>
+            <h3 style="text-align: justify;">¿Qué es un formulario?</h3>
+            <p>
+                Se conoce como formulario a los mecanismos para enviar información por parte del usuario, a través de unos campos visuales de forma sencilla e intuitiva, que determinan la naturaleza del tipo de información que se va a enviar y como hacerla llegar a otro extremo donde se procesará esa información.
+            </p>
+            <p>Nuestros objetivos al crear un formulario HTML deben ser los siguientes:</p>
+
+            <ul>
+                <li>Hacer lo más sencillo posible el proceso de inserción de datos por parte del usuario.</li>
+                <li>Intentar que la experiencia de usuario sea lo más agradable y cómoda posible.</li>
+                <li>Intentar que los datos introducidos estén en un formato predecible y esperado.</li>
+                <li>Reducir los errores al introducir datos en la medida de lo posible.</li>
+                <li>Comunicar clara y rápidamente si ocurren errores al introducir datos.   </li>
+            </ul>
+            <h3 style="text-align: justify;"> La etiqueta <strong>&lt;form&gt;</strong></h3>
+            <p style="text-align: justify;">Para comenzar con la creación de un formulario, el primer paso es indicar una etiqueta contenedora <strong>&lt;form&gt;</strong>, que incluirá toda la información que se quiere recoger en ese formulario:</p>
+            <img src="../Imagenes/form.png" alt="form" width="300" height="150">
+
+            
+        </nav>  
+
+   </div>
+
+
+</main>
+
+            
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../Sidebar/script.js"></script>
+
+</body>
+</html>
